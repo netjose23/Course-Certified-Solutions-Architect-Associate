@@ -1,6 +1,12 @@
 {
     "Resources": {
         "catpics": {
+            "Type": "AWS::S3::Bucket",
+            "Properties":{
+                "BucketName": "catsareawesome-54151615131531"
+            }
+        },
+        "dogpics": {
             "Type": "AWS::S3::Bucket"
         }
     }
